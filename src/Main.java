@@ -9,4 +9,6 @@ public class Main {
             System.out.println("Hola ¿Cómo estas?");
         }
     }
+    public double mitadDelNum (int num) {
+        return num / 2;
 }
