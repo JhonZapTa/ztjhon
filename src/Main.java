@@ -5,6 +5,7 @@ public class Main {
         System.out.println("Introduce un número: ");
         int num = sc.nextInt();
         System.out.println("El triple del número " + num + " es: " + tripleDelNum(num));
+        System.out.println("La mitad del número " + num + " es: " + mitadDelNum(num));
         System.out.println("Hola mundo de nuevo");
         for (int i = 0; i < 3; i++) {
             System.out.println("Hola ¿Cómo estas?");
@@ -12,5 +13,8 @@ public class Main {
     }
     public static int tripleDelNum (int num) {
         return num * 3;
+    }
+    public static double mitadDelNum (int num) {
+        return num / 2;
     }
 }
