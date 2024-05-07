@@ -4,8 +4,11 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduce un número: ");
         int num = sc.nextInt();
+        System.out.println("Introduce tu edad: ");
+        int num2 = sc.nextInt();
         System.out.println("El triple del número " + num + " es: " + tripleDelNum(num));
         System.out.println("La mitad del número " + num + " es: " + mitadDelNum(num));
+        System.out.println("Es mayor de edad: " + esMayorEdad(num2));
         System.out.println("Hola mundo de nuevo");
         for (int i = 0; i < 3; i++) {
             System.out.println("Hola ¿Cómo estas?");
@@ -16,5 +19,8 @@ public class Main {
     }
     public static double mitadDelNum (int num) {
         return num / 2;
+    }
+    public static boolean esMayorEdad (int num2) {
+        return num2 >= 18;
     }
 }
