@@ -18,7 +18,7 @@ public class Main {
         return num * 3;
     }
     public static double mitadDelNum (int num) {
-        return num / 2;
+        return (double) num / 2;
     }
     public static boolean esMayorEdad (int num2) {
         return num2 >= 18;
