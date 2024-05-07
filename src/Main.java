@@ -7,6 +7,7 @@ public class Main {
         System.out.println("El triple del número " + num + " es: " + tripleDelNum(num));
         System.out.println("La mitad del número " + num + " es: " + mitadDelNum(num));
         System.out.println("El número es par: " + esPar(num));
+        System.out.println("Es positivo: " + esPositivo(num));
         System.out.println("Hola mundo de nuevo");
         for (int i = 0; i < 3; i++) {
             System.out.println("Hola ¿Cómo estas?");
@@ -21,4 +22,6 @@ public class Main {
     public static boolean esPar (int num) {
         return num % 2 == 0;
     }
+    public static boolean esPositivo (int num) {
+        return num > 0;
 }
