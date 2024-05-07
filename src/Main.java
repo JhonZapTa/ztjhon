@@ -24,4 +24,5 @@ public class Main {
     }
     public static boolean esPositivo (int num) {
         return num > 0;
+    }
 }
